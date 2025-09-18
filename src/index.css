@@ -1,4 +1,4 @@
-:root {
+/* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -65,4 +65,14 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+} */
+
+
+#hero-image {
+  -webkit-border-top-left-radius: 450px;
+-webkit-border-bottom-right-radius: 450px;
+-moz-border-radius-topleft: 450px;
+-moz-border-radius-bottomright: 450px;
+border-top-left-radius: 450px;
+border-bottom-right-radius: 450px;
 }
