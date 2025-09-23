@@ -1,16 +1,14 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import HomePage from "./pages/home"
+import Home from "./pages/home";
+import CollectionPage from "./pages/products";
 
-
-function App() {
+export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-       
+        <Route path="/" element={<Home />} />
+        <Route path="/collection/:id" element={<CollectionPage />} />
       </Routes>
     </Router>
   );
 }
-
-export default App;
