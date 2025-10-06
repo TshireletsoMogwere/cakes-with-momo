@@ -96,16 +96,7 @@ export default function CollectionPage() {
                   <h3 className="text-lg font-semibold text-gray-900 mb-2 line-clamp-2 group-hover:text-blue-600 transition-colors duration-200">
                     {product.title}
                   </h3>
-                  <div className="flex items-center justify-between mt-auto">
-                    {product.compareAtPrice && (
-                      <span className="text-sm text-gray-400 line-through">
-                        ${product.compareAtPrice}
-                      </span>
-                    )}
-                    <span className="text-lg font-bold text-gray-900">
-                      ${product.price || "0.00"}
-                    </span>
-                  </div>
+                 
                 </div>
               </div>
             ))}
