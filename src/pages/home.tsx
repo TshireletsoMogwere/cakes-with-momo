@@ -111,7 +111,7 @@ const Home = memo(() => {
                 className="border-2 border-red-400 text-red-400 px-6 py-2 rounded-full hover:bg-red-400 hover:text-white transition-all duration-300 font-medium focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2 transform hover:scale-105"
                 aria-label="Register for exclusive offers"
               >
-                JOIN US
+                SIGN IN
               </button>
             </div>
           </div>
